@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/foto.jpg" alt="avatar da flor" class="rounded-circle" width="120" height="110"
+            srcset="">
+        <p class="lead">Sou Maria Flor_</p>
+        <h1>Eu estudo no ensino medio</h1>
+        <p>Sou estudante da escola culta a ciencia. faço alguns projetos nas aulas de 
+            tecnologia e robotica usando HTML, CSS e JavaScript. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/aventura.png" class="card-img-top" alt="Imagem do projeto aventura">
+                    <div class="card-body">
+                        <h5 class="card-title">uma aventura:</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma especie de jogo
+                            uma historia de uma aventura. Voce deve clicar nos botoes para trilhar sua rota.
+                            com opções variadas, o fim vai depender de suas escolha.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/carta.png" class="card-img-top" alt="imagem do projeto super trunfo">
+                    <div class="card-body">
+                        <h5 class="card-title">super trunfo conta IA</h5>
+                        <p class="card-text">Este projeto é um jogo interativo baseado em vecer no numero de pontos contra o oponente. 
+                            o jogo proporciona varias combinações que podem valer masi pontos que as outras. Você deve escolher a categ
+                            oria que possuí o maior numero para tentar vencer.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/pingpong.png" class="card-img-top" alt="imagem do projeto pingpong">
+                    <div class="card-body">
+                        <h5 class="card-title"> PINGPONG
+                        </h5>
+                        <p class="card-text">Esse projeto tem como foco um jogo de tenis de mesa contra IA. você move sua raquete
+                            com as setinhas do teclado e seu objetivo é não deixar a bolinha atravessar sua linha.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">uma aventura:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, no vscode online. O projeto é uma aventura onde você escolhe seus passos,
+                        baseados nas alternativas desponiveis. Cada alternativa te levara para um caminho diferente.
+                    </p>
+                    <img src="img/aventura.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://frorhehe.github.io/flor-aventura/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/frorhehe/flor-aventura">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">super trunfo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O objetivo desse projeto é vencer seu oponente em numero de pontos feitos. Cada carta sera completamente
+                        aleatoria. cada parte da roupa ou acessorio ou parte do corpo proporciona uma pontuação diferente que 
+                        sera multiplicada na ua pontuação fina. você deve escolher uma das quatro opções de classes diferentes 
+                        para somar a maior pontuação e ganhar de seu opnente. para escolher você clica com o botão esquerdo em 
+                        cima da classe escolhida.
+                    </p>
+                    <img src="img/carta.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto do super trunfo.">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/990331658">Ver projeto ao
+                        vivo</a>
+                    
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+   <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">super trunfo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto tem como base um jogo de tenis de mesa virtual contra IA. o projeto acompanha raquetes, a area 
+                        onde a bolinha se move e rebate, e a area onde a bolinha ultrapaça para conseguir um ponto. Seu objetivo 
+                        é fazer com que a bolinha passe da area inimiga ao mesmo tempo que você impede a bolinha passar da sua area.
+                     </p>
+                    <img src="img/pingpong.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/1023418775">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            
+        </div>
+        <p class="my-5 text-center">Produzido por maria flor</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
